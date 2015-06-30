@@ -8,6 +8,7 @@ body {
 	height: 1000px;
 	padding: 0px;
 	background: url("images/backgrounds/wallpaper.png");
+	font-family: "Lato";
 }
 
 #lang-container {
@@ -42,7 +43,7 @@ body {
 
 #content {
 	width: 972px;
-	height: 756px;
+	height: 800px;
 	background: #FFFFFF;
 	margin: 0 auto;
 	/*margin-top: 18px;*/
@@ -62,6 +63,7 @@ body {
 	height: 54px;
 	float: left;
 	background: url("images/pictures/logo.png") no-repeat;
+	display: block;
 }
 
 .menu-top {
@@ -111,18 +113,16 @@ body {
 	margin-left: 5px;
 	padding-left: 5px;
 	line-height: 10px;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .search input:focus {
 	outline: none;
-	/*border: 1px solid #DCDCDC;*/
 }
 
 #lens {
 	background: url("images/icons/lens.png") no-repeat;
 	position: relative;
-	/*margin-right: 10px;*/
 	border-right: 1px solid #DCDCDC;
 	border-top: 1px solid #DCDCDC;
 	border-bottom: 1px solid #DCDCDC;
@@ -135,7 +135,6 @@ body {
 	width: 618px;
 	height: 462px;
 	background: url("images/pictures/main.jpg") no-repeat;
-	/*background: black;*/
 	border: 1px solid #AFACA9;
 	margin: 30px 12px 16px 20px;
 	float: left;
@@ -153,7 +152,6 @@ body {
 	height: 164px;
 	background: url("images/pictures/floral.png") no-repeat;
 	position: absolute;
-	/*border: 1px solid blue;*/
 	z-index: 1;
 	margin-top: -85px;
 	margin-left: -30px;
@@ -164,15 +162,10 @@ body {
 	height: 90px;
 	background: #A05847;
 	margin: 0 auto;
-	/*color: #F4F1F0;
-	font-size: 36px;
-	text-align: center;
-	font-family: "Oswald", Oswald sans-serif;
-	letter-spacing: 0.2px;
-	word-spacing: 5px;*/
-	/*line-height: 37px;*/
 	position: absolute;
 	z-index: 2;
+	display: block;
+	text-decoration: none;
 }
 
 #season {
@@ -196,10 +189,7 @@ body {
 	font-size: 12px;
 	letter-spacing: 8px;
 	font-family: "Lato";
-	/*line-height: 14px;*/
-	/*width: 3px;*/
 	height: 16px;
-	/*margin: 0 auto;*/
 	text-align: center;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -226,6 +216,7 @@ body {
 	margin-left: 22px;
 	margin-right: 10px;
 	float: left;
+	display: block;
 }
 
 
@@ -238,7 +229,6 @@ body {
 	margin-left: 18px;
 	display: block;
 	float: left;
-	/*padding-left: 7px;*/
 	padding-top: 2px;
 	text-align: center;
 	color: #FFFFFF;
@@ -263,9 +253,7 @@ body {
 
 .account {
 	background: url("images/backgrounds/green-bg.png");
-	/*background: #D7EDD3;*/
 	border: 1px solid #AEC9A6;
-	/*opacity: 0.6;*/
 }
 
 .account .buy {
@@ -297,6 +285,10 @@ body {
 }
 
 .account p span {
+	color: #425F39;
+}
+
+.account p a {
 	color: #425F39;
 }
 
@@ -378,11 +370,6 @@ body {
 	background: -ms-linear-gradient(top, rgba(243,247,222,1) 0%,rgba(234,236,171,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom, rgba(243,247,222,1) 0%,rgba(234,236,171,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f7de', endColorstr='#eaecab',GradientType=0 ); /* IE6-9 */
-/*	border-right: 1px solid #F1F8EF ;
-	border-bottom: 1px solid #F1F8EF;
-
-	border-top: 1px solid #82AA7E;
-	border-left: 1px solid  #82AA7E;*/
 }
 
 #circles {
@@ -446,7 +433,7 @@ body {
 
 #navigation-bottom-holder {
 	width: 926px;
-	height: 128px;
+	height: 150px;
 	border: 2px solid #DFDCD8;
 	clear: both;
 	margin: 0 auto;
@@ -455,41 +442,12 @@ body {
 
 .navigation-bottom {
 	width: 918px;
-	height: 120px;
-	/*background: url("bottom-bg.png");*/
+	height: 142px;
 	clear: both;
 	margin: 0 auto;
 	border: 2px solid #F1ECE7;
-	/*border: 2px solid red;*/
 	margin-top: 2px;
 }
-
-
-
-/*#corner-top-left {
-	height: 7px;
-	width: 8px;
-	background: url("corner-top-left.png");
-	border: 5px solid black;
-	position: relative;
-	padding-top: -70px; 
-	margin-bottom: -30px;
-	margin-left: 20px;
-	clear: both;
-}
-
-#corner-bottom-left {
-	height: 7px;
-	width: 8px;
-	background: url("corner-bottom-left.png");
-	border: 5px solid black;
-	position: relative;
-	padding-top: 70px; 
-	margin-bottom: 80px;
-	margin-left: 120px;
-	clear: both;
-}*/
-
 
 .navigation-bottom h6 {
 	color: #B0764A;
@@ -500,7 +458,6 @@ body {
 #links {
 	width: 505px;
 	height: 130px;
-	/*border: 1px solid pink;*/
 	float: left;
 }
 
@@ -509,16 +466,19 @@ body {
 }
 
 #link li {
-	width: 166px;
-	height: 18px;
+
 	margin-bottom: 15px;
 }
 
 #links li a {
+		width: 166px;
+	height: 18px;
 	color: #9E8C7E;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: lighter;
+	margin-bottom: 6px;
+	display: block;
 }
 
 .quick-links, .contact, .account{
@@ -535,7 +495,6 @@ body {
 
 #newsletter {
 	margin-top: 20px;
-  /*margin-left: 5px;*/
   height: 85px;
   width: 182px;
   float: left;
@@ -614,7 +573,6 @@ footer {
 	color: #81614A;
 	font-size: 14px;
 }
-
 
 
 
